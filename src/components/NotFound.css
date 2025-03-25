@@ -1,0 +1,44 @@
+.not-found-panel{
+    display: flex;
+    padding: 1rem;
+    border: 0;
+    border-radius: 1rem;
+    justify-self: center;
+    align-items: center;
+    height: 5rem;
+    background-color: lightgrey;
+}
+.not-found-main{
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+}
+.not-found-text{
+    display:block;
+}
+.frown-icon{
+    display: block;
+    align-self: center;
+    font-size: 5rem;
+    margin-right:1rem;
+}
+.item-details-price-info{
+    font-size: 3rem;
+}
+.item-details-price{
+    display: flex;
+    align-items: center;
+}
+.item-details-button{
+    border-radius: 0.6rem;
+    margin:1rem;
+    border:0cap;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    justify-self: center;
+    background-color:blueviolet;
+}
+.item-details-button:hover{
+    background-color:mediumpurple;
+}

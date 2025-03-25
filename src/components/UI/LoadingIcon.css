@@ -1,0 +1,24 @@
+.center {
+    display: flex;
+    justify-self: center;
+    font-size: 3rem;
+    color: blueviolet;
+    animation: rotate 1s linear infinite;
+}
+
+.icon-box {
+    display: block;
+    align-content: center;
+    width: 90%;
+    height: 85dvh;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
